@@ -1,0 +1,114 @@
+﻿body {
+	background: linear-gradient(to top, black, #282828);
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+img {
+	width: 40%;
+}
+
+#img1 {
+	margin-left: 160px;
+	margin-top: 20px;
+}
+
+#img2 {
+	display: block;
+	float: right;
+}
+
+h1 {
+	color: white;
+	font-family: Arial;
+	width: 100%;
+	font-size: 3.5vw;
+}
+
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	line-height: 50px;
+	margin-left: 20px;
+}
+
+#span2 {
+	float: right;
+	margin-right: 10%;
+}
+
+#span1 {
+	margin-left: 10%;
+}
+
+#back {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 20px;
+	left: 20px;
+	filter: invert(100%);
+	transition: filter 0.4s;
+}
+
+#back:hover {
+	filter: invert(75%);
+	transition: filter 0.4s;
+}
+
+div {
+	margin-top: 150px;
+	width: 45%;
+	background-color: rgb(60, 60, 60);
+	border-radius: 20px;
+	position: absolute;
+	color: silver;
+	font-family: Arial;
+}
+
+#ps4_pro {
+	margin-left: 40px;
+}
+
+#ps4_slim {
+	margin-left: 52%;
+}
+
+#cost {
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin: auto;
+	right: 0;
+	left: 0;
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	background-color: FireBrick;
+	font-size: 27px;
+	border: solid 2px;
+	border-color: transparent;
+	border-radius: 30px;
+	transition: border 0.3s, background-color 0.3s;
+	cursor: pointer;
+	color: white;
+}
+
+button:hover {
+	border: solid IndianRed 2px;
+	background-color: DarkRed;
+	transition: border 0.3s, background-color 0.3s;
+}
+
+#scroll {
+	margin-top: 900px;
+	height: 100px;
+	width: 90%;
+	background-color: transparent;
+}

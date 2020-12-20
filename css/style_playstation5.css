@@ -1,0 +1,94 @@
+﻿#back {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 20px;
+	left: 20px;
+	transition: filter 0.4s;
+}
+
+#back:hover {
+	filter: invert(100%);
+	transition: filter 0.4s;
+}
+
+body {
+	background: linear-gradient(to bottom, Gainsboro, white);
+	background-repeat: no-repeat;
+}
+
+#img1 {
+	height: 100%;
+	float: right;
+}
+
+#img2 {
+	position: absolute;
+	top: 10%;
+	width: 40%;
+	right: 0;
+}
+
+button {
+	margin: auto;
+	right: 12%;
+	bottom: 15%;
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	background-color: FireBrick;
+	font-size: 27px;
+	border: solid 2px;
+	border-color: transparent;
+	border-radius: 30px;
+	transition: border 0.3s, background-color 0.3s;
+	cursor: pointer;
+	color: white;
+}
+
+button:hover {
+	border: solid IndianRed 2px;
+	background-color: DarkRed;
+	transition: border 0.3s, background-color 0.3s;
+}
+
+h1 {
+	position: absolute;
+	top: 30%;
+	font-size: 100px;
+	left: 80px;
+	font-family: Arial;
+}
+
+span {
+	font-size: 50px;
+}
+
+h2 {
+	font-family: Arial;
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: Arial;
+	margin-left: 100px;
+	margin-top: 0px;
+	font-size: 25px;
+}
+
+p {
+	font-family: Arial;
+	font-size: 20px;
+	margin-left: 150px;
+}
+
+div {
+	background: white;
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	width: 100%;
+	height: 100%;
+}

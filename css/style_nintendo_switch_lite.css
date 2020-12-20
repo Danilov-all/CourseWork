@@ -1,0 +1,85 @@
+﻿#img1 {
+	float: right;
+	width: 50%;
+}
+
+#img2 {
+	width: 70%;
+	margin: auto;
+	display: block;
+	margin-top: 50px;
+}
+
+#img3 {
+	width: 55%;
+	margin-top: 200px;
+}
+
+h1 {
+	position: absolute;
+	top: 30%;
+	font-size: 4.5vw;
+	left: 80px;
+	font-family: Arial;
+}
+
+span {
+	font-size: 2.5vw;
+	color: gray;
+}
+
+h2 {
+	font-size: 4vw;
+	font-family: Arial;
+	text-align: center;
+}
+
+div {
+	position: absolute;
+	margin-top: 50%;
+	width: 100%;
+	height: 100%;
+}
+
+#back {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 20px;
+	left: 20px;
+	transition: filter 0.4s;
+}
+
+#back:hover {
+	filter: invert(80%);
+	transition: filter 0.4s;
+}
+
+button {
+	position: absolute;
+	bottom: -200px;
+	right: 20%;
+	width: 300px;
+	height: 60px;
+	background-color: FireBrick;
+	font-size: 27px;
+	border: solid 2px;
+	border-color: transparent;
+	border-radius: 30px;
+	transition: border 0.3s, background-color 0.3s;
+	cursor: pointer;
+	color: white;
+}
+
+button:hover {
+	border: solid IndianRed 2px;
+	background-color: DarkRed;
+	transition: border 0.3s, background-color 0.3s;
+}
+
+#cost {
+	font-family: Arial;
+	margin-left: 10px;
+	font-size: 27px;
+	text-align: center;
+}

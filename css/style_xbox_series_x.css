@@ -1,0 +1,87 @@
+﻿#xbox_gif {
+	width: 70%;
+	float: right;
+}
+
+#back {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 20px;
+	left: 20px;
+	transition: filter 0.4s;
+}
+
+#back:hover {
+	filter: invert(100%);
+	transition: filter 0.4s;
+}
+
+div {
+	position: absolute;
+	background-color: rgb(25, 25, 25);
+	width: 30%;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	margin: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	background-color: FireBrick;
+	font-size: 27px;
+	border: solid 2px;
+	border-color: transparent;
+	border-radius: 30px;
+	transition: border 0.3s, background-color 0.3s;
+	cursor: pointer;
+}
+
+button:hover {
+	border: solid IndianRed 2px;
+	background-color: DarkRed;
+	transition: border 0.3s, background-color 0.3s;
+}
+
+body {
+	background-color: black;
+}
+
+h1, h2, h3, button, #cost {
+	text-align: center;
+}
+
+h1, h2, h3, p, button {
+	font-family: SegoeProBlack, Segoe UI,SegoeUI,Helvetica,Arial,sans-serif;
+	color: white;
+}
+
+
+h1 {
+	margin-top: 100px;
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h3 {
+	margin-top: 60px;
+	font-size: 22px;
+}
+
+p {
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+#cost {
+	font-size: 22px;
+}

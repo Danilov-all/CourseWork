@@ -1,0 +1,90 @@
+﻿body {
+	background-color: rgb(250, 250, 250);
+}
+
+img {
+	width: 100%;
+	position: absolute;
+	transform: translateX(-7px) translateY(-7px);
+}
+
+div {
+	margin-left: 70%;
+	width: 30%;
+	position: absolute;
+	background-color: rgba(220, 220, 220, 0.7);
+}
+
+#back {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 25px;
+	left: 71.5%;
+	transition: filter 0.4s;
+}
+
+#back:hover {
+	filter: invert(100%);
+	transition: filter 0.4s;
+}
+
+h1, h2, h3, button, #cost {
+	text-align: center;
+}
+
+h1, h2, h3, p {
+	font-family: SegoeProBlack, Segoe UI,SegoeUI,Helvetica,Arial,sans-serif;
+	color: #141414;
+}
+
+
+h1 {
+	margin-top: 90px;
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h3 {
+	margin-top: 60px;
+	font-size: 22px;
+}
+
+p {
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+#cost {
+	margin-top: 0px;
+	font-size: 22px;
+}
+
+button {
+	margin: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	background-color: FireBrick;
+	font-size: 27px;
+	border: solid 2px;
+	border-color: transparent;
+	border-radius: 30px;
+	transition: border 0.3s, background-color 0.3s;
+	cursor: pointer;
+	color: white;
+	font-family: SegoeProBlack, Segoe UI,SegoeUI,Helvetica,Arial,sans-serif;
+}
+
+button:hover {
+	border: solid IndianRed 2px;
+	background-color: DarkRed;
+	transition: border 0.3s, background-color 0.3s;
+}

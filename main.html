@@ -1,0 +1,66 @@
+﻿<html>
+<head>
+<title>Игровые приставки</title>
+<meta name="Coursework">
+<link rel="stylesheet" href="css/style_main.css">
+</head>
+<body>
+<script>
+	window.setInterval(time_func, 1000);
+
+	function time_func() {
+		date = new Date();
+		h = 10;
+		if (h > 4 && h < 11) document.getElementById('hello').innerHTML = "Доброе утро!";
+		if (h > 10 && h < 17) document.getElementById('hello').innerHTML = "Добрый день!";
+		if (h > 16 && h < 24) document.getElementById('hello').innerHTML = "Добрый вечер!";
+		if (h >= 0 && h < 5) document.getElementById('hello').innerHTML = "Доброй ночи!";
+		if (h < 10) h = '0' + h;
+		m = date.getMinutes();
+		if (m < 10) m = '0' + m;
+		document.getElementById('time1').innerHTML = h + ":" + m;
+	}
+</script>
+<h1 id="heading">Игровые приставки</h1>
+<h2 id="hello"></h2>
+<p id="time1"></p>
+
+<img class="icon" id="xb_icon" src="media/xbox_icon.png" title="Xbox">
+<img class="icon" id="ps_icon" src="media/playstation_icon.png" title="PlayStation">
+<img class="icon" id="ns_icon" src="media/nintendo_icon.png" title="Nintendo">
+
+<div id="xsx">
+	<p>Xbox Series X</p>
+	<img id="console_xsx" src="media/xsx.png">
+	<a href="xbox_series_x.html"></a>
+</div>
+<div id="xss">
+	<p>Xbox Series S</p>
+	<img id="console_xss" src="media/xss.png">
+	<a href="xbox_series_s.html"></a>
+</div>
+
+<div id="ps5">
+	<p>PlayStation 5</p>
+	<img id="console_ps5" src="media/ps5.png">
+	<a href="playstation5.html"></a>
+</div>
+<div id="ps4">
+	<p>PlayStation 4</p>
+	<img id="console_ps4" src="media/ps4.png">
+	<a href="playstation4.html"></a>
+</div>
+
+<div id="ns">
+	<p>Nintendo Switch</p>
+	<img id="console_ns" src="media/ns.png">
+	<a href="nintendo_switch.html"></a>
+</div>
+<div id="nsl">
+	<p>Nintendo Switch Lite</p>
+	<img id="console_nsl" src="media/nsl.png">
+	<a href="nintendo_switch_lite.html"></a>
+</div>
+
+</body>
+</html>

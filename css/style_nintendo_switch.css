@@ -1,0 +1,91 @@
+﻿body {
+	background: linear-gradient(to right, #1fbbdd, white, #fc645c);
+}
+
+img {
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+	font-family: Arial;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 25px;
+	font-size: 40px;
+	font-family: Arial;
+	color: black;
+}
+
+p {
+	text-align: left;
+	margin-left: 25px;
+	font-size: 25px;
+	font-family: Arial;
+	color: black;
+	line-height: 40px;
+}
+
+span {
+	font-size: 50px;
+	color: gray;
+}
+
+div {
+	display: block;
+	margin: auto;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	width: 80%;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 90px;
+}
+
+button {
+	display: block;
+	margin: auto;
+	right: 0;
+	left: 0;
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	background-color: FireBrick;
+	font-size: 27px;
+	border: solid 2px;
+	border-color: transparent;
+	border-radius: 30px;
+	transition: border 0.3s, background-color 0.3s;
+	cursor: pointer;
+	color: white;
+}
+
+button:hover {
+	border: solid IndianRed 2px;
+	background-color: DarkRed;
+	transition: border 0.3s, background-color 0.3s;
+}
+
+#cost {
+	margin-left: 10px;
+	font-size: 22px;
+	text-align: center;
+}
+
+#back {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: -20px;
+	left: 20px;
+	transition: filter 0.4s;
+}
+
+#back:hover {
+	filter: invert(100%);
+	transition: filter 0.4s;
+}
