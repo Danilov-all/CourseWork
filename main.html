@@ -10,7 +10,7 @@
 
 	function time_func() {
 		date = new Date();
-		h = 10;
+		h = date.getHours();
 		if (h > 4 && h < 11) document.getElementById('hello').innerHTML = "Доброе утро!";
 		if (h > 10 && h < 17) document.getElementById('hello').innerHTML = "Добрый день!";
 		if (h > 16 && h < 24) document.getElementById('hello').innerHTML = "Добрый вечер!";
